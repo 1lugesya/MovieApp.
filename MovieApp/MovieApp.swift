@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct MovieAppApp: App {
+struct MovieApp: App {
+    
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeMovieView()
         }
     }
 }
